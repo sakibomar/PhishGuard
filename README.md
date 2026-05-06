@@ -44,7 +44,7 @@ npm run dev    # → http://localhost:5173
 
 The Vite dev server proxies `/api/*` → `http://localhost:8000` automatically.
 
-## API Endpoints
+
 
 | Method | Path | Body |
 |--------|------|------|
@@ -52,16 +52,4 @@ The Vite dev server proxies `/api/*` → `http://localhost:8000` automatically.
 | `POST` | `/predict` | `{ "url": "...", "model": "rf" }` |
 | `POST` | `/predict/batch` | `{ "urls": [...], "model": "rf" }` |
 
-Models: `dummy` · `lr` · `rf` · `gbm`
-
-## Dataset
-`train.py` first tries to download the PhiUSIIL phishing URL dataset (~235k rows).
-If the download fails it falls back to an 11 055-row synthetic dataset with the same
-statistical properties as the UCI Phishing Websites dataset.
-
-## Features (14 URL-based, no DNS/WHOIS needed)
-`url_length`, `domain_length`, `path_length`, `subdomain_count`, `path_depth`,
-`has_at_symbol`, `dash_count`, `digit_ratio`, `domain_entropy`, `has_https`,
-`keyword_count`, `has_suspicious_tld`, `percent_count`, `underscore_count`
-
-Random seed: **42** — fully reproducible.
+Models: `dummy` · `
