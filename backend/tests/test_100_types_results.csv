@@ -1,0 +1,115 @@
+category,url,expected,rf_score,gbm_score,rf_verdict,correct
+Google Shopping Tracking,https://www.pokemoncenter.com/en-gb?srsltid=AfmBOooM7ubH1-pgpLsdXok9figfVv42b7gHHJd1hEx_a3qsC25mhh4B,LEGIT,0.0,1.0839989338874985e-05,LEGIT,True
+Google Shopping Tracking,https://www.amazon.co.uk/dp/B08N5WRWNW?ref=sr_1_1&tag=googhydr-21&gclid=Cj0KCQiA,LEGIT,0.0,7.0823067173679795e-06,LEGIT,True
+Google Shopping Tracking,https://www.currys.co.uk/products/samsung-tv.html?srsltid=AfmBOooM7ubH1pgpLsdX,LEGIT,0.0,2.080774225937684e-06,LEGIT,True
+Google Analytics UTM,https://www.bbc.co.uk/news/uk?utm_source=google&utm_medium=cpc&utm_campaign=news2026,LEGIT,0.0,3.1631730071911076e-06,LEGIT,True
+Google Analytics UTM,https://www.theguardian.com/politics?utm_source=facebook&utm_medium=social&utm_campaign=breaking,LEGIT,0.0,4.34494483396348e-06,LEGIT,True
+Google Analytics UTM,https://www.forbes.com/sites/tech/?utm_campaign=forbesmagazine&utm_source=google&utm_medium=organic,LEGIT,0.0,2.061308061503203e-06,LEGIT,True
+OAuth Login Pages,https://signin.microsoftonline.com/oauth2/authorize?client_id=abc123&response_type=code,LEGIT,0.0,5.21864430396119e-06,LEGIT,True
+OAuth Login Pages,https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn,LEGIT,0.0,5.331576816859024e-06,LEGIT,True
+OAuth Login Pages,https://auth.atlassian.com/login?application=jira&continue=https://jira.atlassian.com,LEGIT,0.0,1.646418618747801e-05,LEGIT,True
+Redirect URLs,https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F123456,LEGIT,0.0,1.5161868480608128e-05,LEGIT,True
+Redirect URLs,https://twitter.com/i/flow/login?redirect_after_login=https://twitter.com/home,LEGIT,0.0,2.0274658543688476e-05,LEGIT,True
+Redirect URLs,https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2Fr%2Fpython,LEGIT,0.0,1.2448493839902556e-05,LEGIT,True
+Base64 Tokens,https://auth.disney.com/login?options=eyJpc3MiOiJ1cm46YmFtdGVjaDpzZXJ2aWNlOmFjY291bnQifQ,LEGIT,0.0,9.651120328456905e-06,LEGIT,True
+Base64 Tokens,https://accounts.spotify.com/en-GB/login?continue=https://open.spotify.com&utm_source=google,LEGIT,0.0,3.7000627806284633e-06,LEGIT,True
+Base64 Tokens,https://api.example.com/verify?jwt=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9,LEGIT,0.0,1.8669403156257707e-05,LEGIT,True
+Clean URL,https://www.google.com,LEGIT,0.0,8.452394942501781e-06,LEGIT,True
+Clean URL,https://www.youtube.com,LEGIT,0.0,2.5864058874034674e-06,LEGIT,True
+Clean URL,https://www.wikipedia.org,LEGIT,0.0,8.709654081810745e-06,LEGIT,True
+URL with Path,https://www.bbc.co.uk/news/technology,LEGIT,0.0,1.0076108464098098e-05,LEGIT,True
+URL with Path,https://www.github.com/torvalds/linux,LEGIT,0.0,6.672529635371333e-05,LEGIT,True
+URL with Path,https://docs.python.org/3/library/os.html,LEGIT,0.0,5.647164126556318e-06,LEGIT,True
+URL with Query,https://www.amazon.co.uk/s?k=laptop,LEGIT,0.0,1.0557189503011918e-05,LEGIT,True
+URL with Query,https://www.google.com/search?q=weather,LEGIT,0.0,4.291036056925535e-06,LEGIT,True
+URL with Query,https://www.ebay.co.uk/sch?_nkw=laptop&_sop=12&rt=nc,LEGIT,0.0,4.792027797050772e-06,LEGIT,True
+URL with Fragment,https://www.wikipedia.org/wiki/Python_(programming_language)#History,LEGIT,0.0,6.526323037656782e-06,LEGIT,True
+URL with Fragment,https://docs.python.org/3/library/os.html#os.path,LEGIT,0.0,5.382737417646447e-06,LEGIT,True
+URL with Fragment,https://developer.mozilla.org/en-US/docs/Web#HTTP,LEGIT,0.0033333333333333335,1.2931345814700174e-05,LEGIT,True
+Subdomain URLs,https://mail.google.com,LEGIT,0.0,2.2156891488595638e-06,LEGIT,True
+Subdomain URLs,https://drive.google.com/drive/my-drive,LEGIT,0.0,4.026260656642108e-05,LEGIT,True
+Subdomain URLs,https://calendar.google.com/calendar/r/week,LEGIT,0.0,2.491450016348961e-05,LEGIT,True
+Multiple Subdomains,https://secure.login.gov.uk/personal/account,LEGIT,0.0,1.2184331242959442e-05,LEGIT,True
+Multiple Subdomains,https://personal.tax.service.gov.uk/gg/sign-in,LEGIT,0.006666666666666667,7.158015527562077e-06,LEGIT,True
+Multiple Subdomains,https://online.banking.lloydsbank.co.uk/personal,LEGIT,0.0033333333333333335,3.279827117519623e-05,LEGIT,True
+Country Code TLD,https://www.bbc.co.uk/news,LEGIT,0.0,1.732261745005994e-05,LEGIT,True
+Country Code TLD,https://www.amazon.co.uk,LEGIT,0.0,3.940008061562871e-06,LEGIT,True
+Country Code TLD,https://www.gov.uk/guidance/coronavirus-covid-19,LEGIT,0.0,5.371693296250421e-07,LEGIT,True
+Corporate Subdomains,https://secure.bankofamerica.com/login/sign-in/signOnV2Screen.go,LEGIT,0.0,1.2184331242959442e-05,LEGIT,True
+Corporate Subdomains,https://signin.aws.amazon.com/signin?redirect_uri=https://console.aws.amazon.com,LEGIT,0.0,2.2465375039005107e-05,LEGIT,True
+Corporate Subdomains,https://sso.google.com/enterprise/vfe?continue=https://mail.google.com,LEGIT,0.0,3.6587059044292395e-06,LEGIT,True
+Amazon Legitimate,https://www.amazon.co.uk/gp/your-account/order-history?ref_=ya_d_c_yo,LEGIT,0.0,7.017546225221255e-06,LEGIT,True
+Amazon Legitimate,https://www.amazon.co.uk/s?k=laptop&ref=nb_sb_noss&url=search-alias%3Daps,LEGIT,0.0,6.401970534481909e-06,LEGIT,True
+Amazon Legitimate,https://www.amazon.co.uk/gp/product/B09G9HD6PD?ie=UTF8&tag=googhydr-21&linkCode=as2,LEGIT,0.0,2.8598355513207036e-06,LEGIT,True
+Banking & Finance,https://www.lloydsbank.com/online-banking/personal/logon/login.jsp,LEGIT,0.0,1.1000750021481751e-05,LEGIT,True
+Banking & Finance,https://www.hsbc.co.uk/mortgages/tools/repayment-calculator/?interestRate=4.5&loanAmount=200000,LEGIT,0.0,8.926943972593626e-07,LEGIT,True
+Banking & Finance,https://onlinebanking.santander.co.uk/retail/login/start.bds?lang=en,LEGIT,0.0,4.647062366061568e-06,LEGIT,True
+Government URLs,https://www.gov.uk/guidance/coronavirus-covid-19-what-has-changed?utm_source=google,LEGIT,0.0,2.854590717712923e-07,LEGIT,True
+Government URLs,https://www.hmrc.gov.uk/login?continue=https://www.tax.service.gov.uk/account,LEGIT,0.0,1.81427832788104e-05,LEGIT,True
+Government URLs,https://www.nhs.uk/nhs-login/?redirect_uri=https://www.nhs.uk/health-records,LEGIT,0.0,6.432004605174641e-07,LEGIT,True
+Microsoft URLs,https://login.microsoftonline.com/common/oauth2/v2.0/token?grant_type=authorization_code,LEGIT,0.0,5.21864430396119e-06,LEGIT,True
+Microsoft URLs,https://outlook.office365.com/owa/?realm=company.com&exsvurl=1,LEGIT,0.03666666666666667,0.0008001772855597201,LEGIT,True
+Microsoft URLs,https://myaccount.microsoft.com/security-info/update?reauth=1,LEGIT,0.0,8.235582687564077e-06,LEGIT,True
+Google Services,https://myaccount.google.com/security-checkup/3?continue=https://myaccount.google.com,LEGIT,0.0,8.44019904452102e-06,LEGIT,True
+Google Services,https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgVE2upms/view?usp=sharing,LEGIT,0.0,7.129389502620218e-06,LEGIT,True
+Google Services,https://console.cloud.google.com/iam-admin/iam?project=my-project-123456&authuser=0,LEGIT,0.0,7.941893000707318e-06,LEGIT,True
+Social Media Login,https://www.instagram.com/accounts/login/?next=/p/abc123def456/&source=desktop_nav,LEGIT,0.0,1.3846049023372698e-05,LEGIT,True
+Social Media Login,https://www.linkedin.com/uas/login?session_redirect=https://www.linkedin.com/feed/,LEGIT,0.0,2.964088907864853e-05,LEGIT,True
+Social Media Login,https://accounts.snapchat.com/accounts/login?continue=https://web.snapchat.com,LEGIT,0.0,1.336197352255805e-05,LEGIT,True
+E-commerce Tracking,https://www.etsy.com/uk/listing/123456789/handmade-item?ga_order=most_relevant&ga_search_type=all,LEGIT,0.0,1.430905627004934e-06,LEGIT,True
+E-commerce Tracking,https://www.asos.com/search/?q=trainers&iid=1&channel=mobile-web&country=GB&lang=en-GB,LEGIT,0.0,3.078886796934986e-06,LEGIT,True
+E-commerce Tracking,https://www.boohoo.com/dresses?utm_source=google&srsltid=AfmBOoo123&pla=true&gclid=abc,LEGIT,0.0,1.5171926818268247e-06,LEGIT,True
+Developer API,https://api.stripe.com/v1/charges?limit=10&starting_after=ch_abc123,LEGIT,0.0,3.064625191574956e-06,LEGIT,True
+Developer API,https://api.github.com/repos/torvalds/linux/commits?sha=master&per_page=100&page=1,LEGIT,0.0,1.761477091047188e-06,LEGIT,True
+Developer API,https://registry.npmjs.org/react/-/react-18.2.0.tgz,LEGIT,0.0,4.4100697170644e-06,LEGIT,True
+Password Managers,https://vault.bitwarden.com/#/login?email=user@example.com,LEGIT,0.14666666666666667,0.0038482869075986306,LEGIT,True
+Password Managers,https://account.1password.com/signin?a=abc123&domain=my.1password.com,LEGIT,0.0,1.0655932581325546e-05,LEGIT,True
+Password Managers,https://www.lastpass.com/misc/login.php?from=https://lastpass.com/vault/,LEGIT,0.0,1.526730246268288e-05,LEGIT,True
+Streaming Login,https://www.netflix.com/gb/login?callbackUrl=https://www.netflix.com/browse&preferredLocale=en-GB,LEGIT,0.0,1.1533487585659764e-05,LEGIT,True
+Streaming Login,https://auth.disney.com/login?options=eyJpc3MiOiJ1cm46YmFtdGVjaCI6InNlcnZpY2UifQ,LEGIT,0.0,9.651120328456905e-06,LEGIT,True
+Streaming Login,https://account.sky.com/signin?continue=https://www.sky.com/shop&client_id=skycom,LEGIT,0.0,1.3146659582473865e-05,LEGIT,True
+Verify & Confirm,https://verify.stripe.com/identity/verification?token=vs_abc123def456,LEGIT,0.0,4.19564545433182e-06,LEGIT,True
+Verify & Confirm,https://confirm.booking.com/confirmations/email?token=abc123&lang=en-gb,LEGIT,0.0,6.141764109484155e-06,LEGIT,True
+Verify & Confirm,https://verify.airbnb.com/account/email_verification?token=abc123&locale=en-GB,LEGIT,0.0,4.19564545433182e-06,LEGIT,True
+Numeric ID,https://www.youtube.com/watch?v=dQw4w9WgXcQ,LEGIT,0.0,7.369326886446564e-06,LEGIT,True
+Numeric ID,https://www.ebay.co.uk/itm/123456789012,LEGIT,0.0,1.066593211491814e-05,LEGIT,True
+Numeric ID,https://stackoverflow.com/questions/12345678/python-question,LEGIT,0.0,0.00011290467397600035,LEGIT,True
+Hyphenated Domain,https://www.coca-cola.com/products,LEGIT,0.0,7.667739770949781e-06,LEGIT,True
+Hyphenated Domain,https://www.rolls-royce.com/about,LEGIT,0.0033333333333333335,0.00037699907562584796,LEGIT,True
+Hyphenated Domain,https://www.hewlett-packard.com/support,LEGIT,0.0033333333333333335,0.0003325722040795936,LEGIT,True
+CDN Assets,https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css,LEGIT,0.21333333333333335,0.011001128593511739,LEGIT,True
+CDN Assets,https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js,LEGIT,0.0,4.884556801604234e-06,LEGIT,True
+CDN Assets,https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap,LEGIT,0.07666666666666666,0.0007410786721811929,LEGIT,True
+File Downloads,https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US,LEGIT,0.0,8.83616441976039e-06,LEGIT,True
+File Downloads,https://www.python.org/ftp/python/3.12.0/python-3.12.0-amd64.exe,LEGIT,0.0,5.221569725947763e-06,LEGIT,True
+File Downloads,https://github.com/torvalds/linux/archive/refs/tags/v6.7.tar.gz,LEGIT,0.0,3.0412179031812974e-05,LEGIT,True
+Cloud Storage,https://s3.amazonaws.com/bucket/file?X-Amz-Signature=abc123&Expires=1712345678,LEGIT,0.02,6.339577086615142e-07,LEGIT,True
+Cloud Storage,https://storage.googleapis.com/bucket/object?X-Goog-Signature=abc123,LEGIT,0.0,6.194236283733065e-06,LEGIT,True
+Cloud Storage,https://blob.core.windows.net/container/file?sv=2021-06-08&sig=abc123,LEGIT,0.0,4.558237324556809e-06,LEGIT,True
+Meeting URLs,https://zoom.us/j/123456789?pwd=abc123def456ghi789jkl012mno345,LEGIT,0.0,1.4421106125920249e-06,LEGIT,True
+Meeting URLs,https://teams.microsoft.com/l/meetup-join/19%3ameeting_abc123%40thread.v2/0?context=,LEGIT,0.0,6.971205272670921e-06,LEGIT,True
+Meeting URLs,https://meet.google.com/abc-defg-hij?authuser=0,LEGIT,0.0,6.718375913606913e-07,LEGIT,True
+Simple Well-Known,https://www.apple.com,LEGIT,0.0,5.092216008958865e-06,LEGIT,True
+Simple Well-Known,https://www.microsoft.com,LEGIT,0.0,7.576443527004953e-06,LEGIT,True
+Simple Well-Known,https://www.stackoverflow.com,LEGIT,0.0,7.17798802447158e-06,LEGIT,True
+Pagination,https://www.reddit.com/r/python?page=2&limit=25,LEGIT,0.0,4.229976375769721e-06,LEGIT,True
+Pagination,https://news.ycombinator.com/news?p=2,LEGIT,0.0,2.3537461848568394e-05,LEGIT,True
+Pagination,https://www.ebay.co.uk/sch?_nkw=laptop&_pgn=3&_ipg=48,LEGIT,0.0,4.792027797050772e-06,LEGIT,True
+Locale Path,https://www.pokemon.com/uk,LEGIT,0.0,8.72588959638448e-06,LEGIT,True
+Locale Path,https://www.nike.com/gb/t/air-max,LEGIT,0.0,4.341706297492303e-06,LEGIT,True
+Locale Path,https://www.adidas.co.uk/en-gb/ultraboost,LEGIT,0.0,6.40110985200263e-06,LEGIT,True
+TLD Phishing,http://paypal-secure-login.tk/verify,PHISH,1.0,0.9999934842333041,PHISH,True
+TLD Phishing,http://amazon-update-account.ml/signin,PHISH,1.0,0.9999949066589143,PHISH,True
+TLD Phishing,http://secure-login-verify-account.xyz,PHISH,0.8933333333333333,0.9999857033603775,PHISH,True
+@ Redirect,http://amazon.com@phishing.ml/login,PHISH,0.9966666666666667,0.999962476266556,PHISH,True
+@ Redirect,http://google.com@evil-site.tk/signin,PHISH,1.0,0.9999761249367871,PHISH,True
+IP Address,http://185.220.101.45/banking/signin,PHISH,0.93,0.9999837647859979,PHISH,True
+IP Address,http://192.168.1.1/login@bank.com/update,PHISH,0.74,0.9999910201083454,PHISH,True
+Keyword Stuffing,http://paypal-secure-update-verify-account.com/login,PHISH,1.0,0.9999548598004705,PHISH,True
+Keyword Stuffing,http://apple-id-verify-confirm-signin.com/auth,PHISH,1.0,0.9999614498934676,PHISH,True
+URL Encoding,http://paypal%2Ecom%2Flogin%2Fverify,PHISH,0.63,0.9226842326678864,PHISH,True
+Homoglyph,http://www.paypa1.com/signin,PHISH,0.36333333333333334,0.00031430036262163985,LEGIT,False
+Homoglyph,http://www.g00gle.com/login,PHISH,0.37666666666666665,0.0030732038535823875,LEGIT,False
+Long Phish,http://secure-banking-update-your-account-immediately-verify-now.tk/auth/confirm,PHISH,0.99,0.9999917689311161,PHISH,True
+Dash Heavy,http://pay-pal-secure-login-verify-account.cf/signin,PHISH,1.0,0.9999958195965661,PHISH,True
+Mixed Signals,http://signin-amazon-update.com/account,PHISH,1.0,0.9999446241059909,PHISH,True
