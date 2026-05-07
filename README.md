@@ -1,3 +1,5 @@
+<div align="center">
+
 # 🛡️ PhishGuard AI
 
 **Explainable ML Phishing URL Detector**
@@ -5,6 +7,8 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18+-61DAFB.svg)](https://reactjs.org/)
+
+</div>
 
 ---
 
@@ -51,8 +55,6 @@ python -m src.evaluate
 python -m uvicorn api:app --reload --port 8000
 ```
 
----
-
 ### 2️⃣ React Frontend
 
 ```bash
@@ -77,5 +79,5 @@ Prasad, A. and Chandra, S. (2024). PhiUSIIL Phishing URL Dataset. UCI Machine Le
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
