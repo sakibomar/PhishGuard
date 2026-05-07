@@ -67,7 +67,18 @@ npm run dev    # → http://localhost:5173
 
 ---
 
-## 📄 License
+## � Dataset
+
+This project uses the PhiUSIIL Phishing URL Dataset.
+
+Prasad, A. and Chandra, S. (2024). PhiUSIIL Phishing URL Dataset.
+UCI Machine Learning Repository.
+https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset
+DOI: https://doi.org/10.1016/j.cose.2023.103545
+
+---
+
+## �📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
